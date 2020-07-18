@@ -1,13 +1,14 @@
 import React from "react";
+import headshot from "../../resources/media/headshot_small.jpg";
 
 export default function HomePage() {
   return (
     <div>
-      <div className="page-content-container">
+      <div>
         <h3 style={{ fontSize: "65px" }}>Welcome.</h3>
         <br />
         <h5 style={{ fontSize: "18px" }}>
-          My name's Leighton. This is just a personal site to keep track of the
+          My name's Leighton. This is one of the places I keep track of the
           things I've been coding.
         </h5>
         <br />
@@ -15,12 +16,7 @@ export default function HomePage() {
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          <img
-            className="headshot"
-            id="headshot"
-            // src={require("../../resources/media/headshot.jpg")}
-            alt="A picture of my mug"
-          />
+          <img id="headshot" src={headshot} height="147px" width="120px" />
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
           nisi ut aliquip ex ea commodo consequat. But I must explain to you how
           allthis mistaken idea of denouncing pleasure and praising pain was
@@ -29,6 +25,9 @@ export default function HomePage() {
           master-builder of human happiness. No one rejects, dislikes, or avoids
           pleasure itself, because it is pleasure, but because those who do not
           know how to pursue pleasure rationally encounter consequences that are
+          extremely painful. No one rejects, dislikes, or avoids pleasure
+          itself, because it is pleasure, but because those who do not know how
+          to pursue pleasure rationally encounter consequences that are
           extremely painful. No one rejects, dislikes, or avoids pleasure
           itself, because it is pleasure, but because those who do not know how
           to pursue pleasure rationally encounter consequences that are
