@@ -10,6 +10,18 @@ app.get("/", (req, res, next) =>
   res.sendFile(path.join(__dirname, "index.html"))
 );
 
+app.get("/blog", (req, res, next) =>
+  res.sendFile(path.join(__dirname, "index.html"))
+);
+
+app.get("/projects", (req, res, next) =>
+  res.sendFile(path.join(__dirname, "index.html"))
+);
+
+app.get("/resume", (req, res, next) =>
+  res.sendFile(path.join(__dirname, "index.html"))
+);
+
 app.get("/api/users", (req, res, next) => {
   db.readUsers()
     .then((users) => res.send(users))

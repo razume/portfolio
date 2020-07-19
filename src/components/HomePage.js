@@ -8,33 +8,44 @@ export default function HomePage() {
         <h3 style={{ fontSize: "65px" }}>Welcome.</h3>
         <br />
         <h5 style={{ fontSize: "18px" }}>
-          My name's Leighton. This is one of the places I keep track of the
-          things I've been coding.
+          My name's Leighton. This is one of the places where I keep track of
+          the things I've been coding.
         </h5>
         <br />
 
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          <img id="headshot" src={headshot} height="147px" width="120px" />
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. But I must explain to you how
-          allthis mistaken idea of denouncing pleasure and praising pain was
-          born and I will give you a complete account of the system, and expound
-          the actual teachings of the great explorer of the truth, the
-          master-builder of human happiness. No one rejects, dislikes, or avoids
-          pleasure itself, because it is pleasure, but because those who do not
-          know how to pursue pleasure rationally encounter consequences that are
-          extremely painful. No one rejects, dislikes, or avoids pleasure
-          itself, because it is pleasure, but because those who do not know how
-          to pursue pleasure rationally encounter consequences that are
-          extremely painful. No one rejects, dislikes, or avoids pleasure
-          itself, because it is pleasure, but because those who do not know how
-          to pursue pleasure rationally encounter consequences that are
-          extremely painful. No one rejects, dislikes, or avoids pleasure
-          itself, because it is pleasure, but because those who do not know how
-          to pursue pleasure rationally encounter consequences that are
-          extremely painful.
+          Just a quick introduction - I'm a fullstack developer so I have
+          interests all across the spectrum of software development. I'm
+          especially fascinated with design and UX.
+          <img id="headshot" src={headshot} height="147px" width="120px" /> I
+          suppose being able to abstract the technical with a beautiful
+          interface is particularly rewarding for me. I try to have that same
+          mindset whether I'm building out a client or if I'm writing an
+          automation script in the backend. I find a lot of joy in modular,
+          reuseable code.
+          <br />
+          At the moment, I'm interning for a logistics software company in
+          Jacksonville, FL. In order to get familiar with the product itself,
+          I've had to put in a lot of time with the QA Automation team. I'm
+          quickly becoming well aquainted with the rigors of end to end testing
+          and the amount of work that is required to manage a large test bed.
+          I've also had the opportunity to write some software of my own to
+          improve the reporting capabilities of the enormous test bed.
+          <br />
+          Take a look at the <em>Blog</em> section to see some of my thoughts
+          and insights on either projects I've worked on or other software
+          related topics. It's very much a work in progress and is admittedly
+          quite barren at the moment. The <em>Projects</em> section lists some
+          links to a few projects I've worked on recently. You'll find
+          descriptions, comments, and links to either the code on GitHub, and or
+          production builds of the apps themselves, depending on whether they're
+          currently live. The <em>Resume</em> tab is a quick overview of my CV.
+          Please don't hesitate to reach out if you'd like to get in touch. Send
+          me an email at{" "}
+          <a href="mailto:leightonpitman14@gmail.com">
+            leightonpitman14@gmail.com
+          </a>
+          .
         </p>
         <br />
         <p>
