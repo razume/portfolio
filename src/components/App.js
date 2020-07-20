@@ -15,6 +15,7 @@ export default function App() {
 
   useEffect(() => {
     attemptLoginFromToken();
+    setThemeFromPreference();
   }, []);
 
   const attemptLoginFromToken = () => {
@@ -34,14 +35,28 @@ export default function App() {
       .then((response) => setAuth(response.data));
   };
 
+  const setThemeFromPreference = () => {
+    const preference = window.localStorage.getItem("themePreference");
+    if (!preference) {
+      return;
+    }
+    if (preference === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+    } else {
+      document.documentElement.setAttribute("data-theme", "root");
+    }
+  };
+
   const toggleTheme = () => {
     if (
       !document.documentElement.getAttribute("data-theme") ||
       document.documentElement.getAttribute("data-theme") === "root"
     ) {
       document.documentElement.setAttribute("data-theme", "dark");
+      window.localStorage.setItem("themePreference", "dark");
     } else {
       document.documentElement.setAttribute("data-theme", "root");
+      window.localStorage.setItem("themePreference", "root");
     }
   };
 
@@ -166,15 +181,13 @@ export default function App() {
             className="footer-wave"
             fill-opacity="0.5"
             d="M0,96L60,96C120,96,240,96,360,133.3C480,171,600,245,720,229.3C840,213,960,107,1080,74.7C1200,43,1320,85,1380,106.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
-          >
-          </path>
+          ></path>
 
           <path
             className="footer-wave"
             fill-opacity=".9"
             d="M0,128L34.3,154.7C68.6,181,137,235,206,234.7C274.3,235,343,181,411,160C480,139,549,149,617,176C685.7,203,754,245,823,256C891.4,267,960,245,1029,208C1097.1,171,1166,117,1234,90.7C1302.9,64,1371,64,1406,64L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,340Z"
-          >
-          </path>
+          ></path>
         </svg>
       </div>
     </Router>

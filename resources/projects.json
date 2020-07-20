@@ -24,6 +24,7 @@
     "title": "Scribe - Transcribe Zoom Meetings",
     "description": "Zoom extension that transcribes recorded meetings. Users can sign in with their Zoom credentials and are authenticated with Oauth2. The frontend was built with React and Material UI. The backend is Node and Express with MongoDB. I built this app alongside Tristan Cruz and Tanner Byers.",
     "screenshots": [],
+    "links": [],
     "id": "04"
   },
   {

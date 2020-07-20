@@ -17,21 +17,26 @@ export default function HomePage() {
           Just a quick introduction - I'm a fullstack developer so I have
           interests all across the spectrum of software development. I'm
           especially fascinated with design and UX.
-          <img id="headshot" src={headshot} height="147px" width="120px" /> I
-          suppose being able to abstract the technical with a beautiful
+        </p>
+        <img id="headshot" src={headshot} height="147px" width="120px" />
+        <p>
+          I suppose being able to abstract something technical with a subtle
           interface is particularly rewarding for me. I try to have that same
           mindset whether I'm building out a client or if I'm writing an
           automation script in the backend. I find a lot of joy in modular,
           reuseable code.
-          <br />
+        </p>
+        <p>
           At the moment, I'm interning for a logistics software company in
           Jacksonville, FL. In order to get familiar with the product itself,
           I've had to put in a lot of time with the QA Automation team. I'm
           quickly becoming well aquainted with the rigors of end to end testing
           and the amount of work that is required to manage a large test bed.
-          I've also had the opportunity to write some software of my own to
-          improve the reporting capabilities of the enormous test bed.
-          <br />
+          I've also had the opportunity to write some software to improve the
+          reporting capabilities of the enormous test bed. That has been a fun
+          project that is still very much a work in progress.
+        </p>
+        <p>
           Take a look at the <em>Blog</em> section to see some of my thoughts
           and insights on either projects I've worked on or other software
           related topics. It's very much a work in progress and is admittedly
