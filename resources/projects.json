@@ -75,21 +75,5 @@
     ],
     "links": ["https://github.com/razume/frontend-starwars"],
     "id": "01"
-  },
-  {
-    "title": "COVID Tracker",
-    "pathIdentifier": "star_wars",
-    "description": "Zoom extension that transcribes recorded meetings. Users can sign in with their Zoom credentials and are authenticated with Oauth2. The frontend was built with React and Material UI. The backend is Node and Express with MongoDB. I built this app alongside Tristan Cruz and Tanner Byers.",
-    "screenshots": [
-      {
-        "picId": "01",
-        "url": "../../resources/media/project_media/star_wars/darkmode.png"
-      },
-      {
-        "picId": "02",
-        "url": "../../resources/media/project_media/star_wars/lightmode.png"
-      }
-    ],
-    "id": "05"
   }
 ]
