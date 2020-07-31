@@ -1,36 +1,95 @@
 [
   {
+    "title": "Surf Station - online Surf Shop",
+    "pathIdentifier": "star_wars",
+    "description": "E-Commerce store for purchasing surfing equipment. This site is for demonstration purchases. I built this alongside Tanner Byers and Tristan Cruz, two of my former classmates at Fullstack Academy. Shoppers can browse as guests or login. We built the authentication with JWTs and Bcrypt. Material UI was used on the frontend. This app was built with the PERN (PostgreSQL, Express, React, Node) stack.",
+    "screenshots": [
+      {
+        "picId": "01",
+        "url": "../../resources/media/project_media/star_wars/darkmode.png"
+      },
+      {
+        "picId": "02",
+        "url": "../../resources/media/project_media/star_wars/lightmode.png"
+      }
+    ],
+    "links": [
+      "https://github.com/tannerbyers/University-Grace-Shopper",
+      "https://university-grace-shopper-stage.herokuapp.com/"
+    ],
+    "id": "03"
+  },
+  {
+    "title": "Productivity Score",
+    "pathIdentifier": "star_wars",
+    "description": "Full-stack productivity tracker that calculates a score based on how productive or unproductive you've been. Build with React, Express/Node, PostgreSQL. This one's a work in progress that I'm still playing around with. You'll have to sign in if you actually want to play with it, so sign in with username: tom, password: qwerty",
+    "screenshots": [
+      {
+        "picId": "01",
+        "url": "../../resources/media/project_media/star_wars/darkmode.png"
+      },
+      {
+        "picId": "02",
+        "url": "../../resources/media/project_media/star_wars/lightmode.png"
+      }
+    ],
+    "links": [
+      "https://github.com/razume/prod_tracker",
+      "https://productivity-tracker-lp.herokuapp.com/"
+    ],
+    "id": "02"
+  },
+  {
+    "title": "Scribe - Transcribe Zoom Meetings",
+    "pathIdentifier": "star_wars",
+    "description": "Zoom extension that transcribes recorded meetings. Users can sign in with their Zoom credentials and are authenticated with Oauth2. The frontend was built with React and Material UI. The backend is Node and Express with MongoDB. I built this app alongside Tristan Cruz and Tanner Byers.",
+    "screenshots": [
+      {
+        "picId": "01",
+        "url": "../../resources/media/project_media/star_wars/darkmode.png"
+      },
+      {
+        "picId": "02",
+        "url": "../../resources/media/project_media/star_wars/lightmode.png"
+      }
+    ],
+    "links": [
+      "https://github.com/razume/client-transcripture",
+      "https://client-transcipture.herokuapp.com/"
+    ],
+    "id": "04"
+  },
+  {
     "title": "Star Wars CSS Project",
-    "description": "an overdone Star Wars-themed front end built with vanilla CSS.",
-    "screenshots": [],
+    "pathIdentifier": "star_wars",
+    "description": "An overdone Star Wars-themed front end built with vanilla JS & CSS. All the Star Wars data comes from SWAPI: the Star Wars API.",
+    "screenshots": [
+      {
+        "picId": "01",
+        "url": "../../resources/media/project_media/star_wars/darkmode.png"
+      },
+      {
+        "picId": "02",
+        "url": "../../resources/media/project_media/star_wars/lightmode.png"
+      }
+    ],
     "links": ["https://github.com/razume/frontend-starwars"],
     "id": "01"
   },
   {
-    "title": "Productivity Score",
-    "description": "Full-stack productivity tracker that calculates a score based on how productive or unproductive you've been. Build with React, Express/Node, PostgreSQL",
-    "screenshots": [],
-    "links": ["https://github.com/razume/prod_tracker"],
-    "id": "02"
-  },
-  {
-    "title": "Surf Station - online Surf Shop",
-    "description": "E-Commerce store for purchasing surfing equipment. This site is for demonstration purchases. I built this alongside Tanner Byers and Tristan Cruz, two of my former classmates at Fullstack Academy. Shoppers can browse as guests or login. We built the authentication with JWTs and Bcrypt. Material UI was used on the frontend. This app was built with the PERN (PostgreSQL, Express, React, Node) stack.",
-    "screenshots": [],
-    "links": [],
-    "id": "03"
-  },
-  {
-    "title": "Scribe - Transcribe Zoom Meetings",
-    "description": "Zoom extension that transcribes recorded meetings. Users can sign in with their Zoom credentials and are authenticated with Oauth2. The frontend was built with React and Material UI. The backend is Node and Express with MongoDB. I built this app alongside Tristan Cruz and Tanner Byers.",
-    "screenshots": [],
-    "links": [],
-    "id": "04"
-  },
-  {
     "title": "COVID Tracker",
+    "pathIdentifier": "star_wars",
     "description": "Zoom extension that transcribes recorded meetings. Users can sign in with their Zoom credentials and are authenticated with Oauth2. The frontend was built with React and Material UI. The backend is Node and Express with MongoDB. I built this app alongside Tristan Cruz and Tanner Byers.",
-    "screenshots": [],
+    "screenshots": [
+      {
+        "picId": "01",
+        "url": "../../resources/media/project_media/star_wars/darkmode.png"
+      },
+      {
+        "picId": "02",
+        "url": "../../resources/media/project_media/star_wars/lightmode.png"
+      }
+    ],
     "id": "05"
   }
 ]

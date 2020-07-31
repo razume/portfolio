@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, Route, useRouteMatch } from "react-router-dom";
 import ProjectEntry from "./ProjectEntry";
 import projects from "../../resources/projects.json";
+import darkmode from "../../resources/media/project_media/star_wars/darkmode.png";
 
 export default function ProjectsPage({ selectedProject, setSelectedProject }) {
   let { url } = useRouteMatch();
@@ -41,12 +42,18 @@ export default function ProjectsPage({ selectedProject, setSelectedProject }) {
         </div>
       ) : (
         <div>
-          <Route path={`${url}/:entryId`} component={ProjectEntry} />
+          <Route
+            path={`${url}/:entryId`}
+            render={({ match }, darkmode) => (
+              <ProjectEntry match={match} darkmode={darkmode} />
+            )}
+          />
+          {/*<Route path={`${url}/:entryId`} component={ProjectEntry} />*/}
           <div
             className="floating-back-button"
             onClick={() => setSelectedProject(false)}
           >
-            <p>{"<"}</p>
+            <p>{"back"}</p>
           </div>
         </div>
       )}

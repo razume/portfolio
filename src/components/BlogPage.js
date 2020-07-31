@@ -23,6 +23,7 @@ export default function BlogPage({ selectedPost, setSelectedPost }) {
       {!selectedPost ? (
         <div>
           <h3 style={{ fontSize: "65px", textAlign: "center" }}>Blog Posts</h3>
+          {/*
           <ul className="blog-links-container">
             {blogs.map((blog) => {
               return (
@@ -45,6 +46,10 @@ export default function BlogPage({ selectedPost, setSelectedPost }) {
               );
             })}
           </ul>
+          */}
+          <p style={{ textAlign: "center", fontSize: "large" }}>
+            Sorry, no blog posts yet.
+          </p>
         </div>
       ) : (
         <div>
