@@ -54,6 +54,10 @@ app.get("/api/users", (req, res, next) => {
     .catch(next);
 });
 
+app.get("/api/export/resume", async (req, res, next) => {
+  res.download("./resources/lp_resume.pdf");
+});
+
 app.post("/api/auth", (req, res, next) => {
   db.authenticate(req.body)
     .then((token) => res.send({ token }))

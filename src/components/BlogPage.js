@@ -3,7 +3,8 @@ import { Link, Route, useRouteMatch } from "react-router-dom";
 import BlogEntry from "./BlogEntry";
 import blogs from "../../resources/blogPosts.json";
 
-export default function BlogPage({ selectedPost, setSelectedPost }) {
+export default function BlogPage({ selectedPost, setSelectedPost, match }) {
+  console.log("match:", match);
   let { url } = useRouteMatch();
 
   useEffect(() => {

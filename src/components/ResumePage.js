@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 export default function ResumePage() {
+  const path = window.location.href;
+  const [trimmedPath, setTrimmedPath] = useState(
+    path.slice(0, path.lastIndexOf("/"))
+  );
+  useEffect(() => {
+    console.log("trimmedPath: ", trimmedPath);
+  });
+
   const styles = {
     experienceListContainer: {
       marginRight: "2rem",
@@ -26,6 +34,42 @@ export default function ResumePage() {
           style={{
             display: "flex",
             flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <a
+            style={{ display: "inline-flex" }}
+            href={`${trimmedPath}/api/export/resume`}
+            download
+          >
+            Export{" "}
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 5C11 4.44772 11.4477 4 12 4C12.5523 4 13 4.44772 13 5V12.1578L16.2428 8.91501L17.657 10.3292L12.0001 15.9861L6.34326 10.3292L7.75748 8.91501L11 12.1575V5Z"
+                fill="currentColor"
+              />
+              <path
+                d="M4 14H6V18H18V14H20V18C20 19.1046 19.1046 20 18 20H6C4.89543 20 4 19.1046 4 18V14Z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <br />
+        <hr />
+        <br />
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
             justifyContent: "space-between",
           }}
         >
@@ -34,7 +78,6 @@ export default function ResumePage() {
             leightonpitman14@gmail.com
           </a>
         </div>
-
         <h4 style={{ fontFamily: "sans-serif", fontWeight: 200 }}>
           Full Stack Developer
         </h4>
