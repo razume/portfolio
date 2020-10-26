@@ -9,7 +9,7 @@ export default function HomePage() {
         <br />
         <h5 style={{ fontSize: "18px" }}>
           My name's Leighton. This is one of the places where I keep track of
-          the things I've been coding.
+          some of the things I've been coding.
         </h5>
         <br />
 
@@ -20,21 +20,20 @@ export default function HomePage() {
         </p>
         <img id="headshot" src={headshot} height="147px" width="120px" />
         <p>
-          I suppose being able to abstract something technical with a subtle
-          interface is particularly rewarding for me. I try to have that same
-          mindset whether I'm building out a client or if I'm writing an
-          automation script in the backend. I find a lot of joy in modular,
-          reuseable code.
+          I like the idea of abstracting something complicated with a subtle
+          interface. I try to have that same mindset whether I'm building out a
+          client or if I'm writing an automation script in the backend. I find a
+          lot of joy in granular, reuseable code.
         </p>
         <p>
-          At the moment, I'm interning for a logistics software company in
+          I just started working for a logistics software company in
           Jacksonville, FL. In order to get familiar with the product itself,
           I've had to put in a lot of time with the QA Automation team. I'm
-          quickly becoming well aquainted with the rigors of end to end testing
-          and the amount of work that is required to manage a large test bed.
-          I've also had the opportunity to write some software to improve the
-          reporting capabilities of the enormous test bed. That has been a fun
-          project that is still very much a work in progress.
+          becoming well aquainted with the rigors of end to end testing and the
+          amount of work that is required to manage a large test bed. I've also
+          had the opportunity to write some software to improve the reporting
+          capabilities of the enormous test bed. That has been a fun project
+          that is still very much a work in progress.
         </p>
         <p>
           Take a look at the <em>Blog</em> section to see some of my thoughts
