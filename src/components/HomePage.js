@@ -5,7 +5,9 @@ export default function HomePage() {
   return (
     <div>
       <div>
-        <h3 style={{ fontSize: "65px" }}>Welcome.</h3>
+        <h3 className="gradient" style={{ fontSize: "65px" }}>
+          Welcome.
+        </h3>
         <br />
         <h5 style={{ fontSize: "18px" }}>
           My name's Leighton. This is one of the places where I keep track of
@@ -32,8 +34,8 @@ export default function HomePage() {
           becoming well aquainted with the rigors of end to end testing and the
           amount of work that is required to manage a large test bed. I've also
           had the opportunity to write some software to improve the reporting
-          capabilities of the enormous test bed. That has been a fun project
-          that is still very much a work in progress.
+          capabilities of the enormous test bed. That has been a fun way to
+          learn about the structure of our testing.
         </p>
         <p>
           Take a look at the <em>Blog</em> section to see some of my thoughts

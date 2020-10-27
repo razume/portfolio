@@ -15,7 +15,12 @@ export default function ProjectsPage({ selectedProject, setSelectedProject }) {
     <div>
       {!selectedProject ? (
         <div>
-          <h3 style={{ fontSize: "65px", textAlign: "center" }}>Projects</h3>
+          <h3
+            style={{ fontSize: "65px", textAlign: "center" }}
+            className="gradient"
+          >
+            Projects
+          </h3>
           <ul className="blog-links-container">
             {projects.map((project) => {
               return (

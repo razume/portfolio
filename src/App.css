@@ -141,6 +141,12 @@ p {
 #logout-button:hover {
   color: rgb(255, 0, 0);
 }
+.gradient {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#4a58fe, #17d0d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .body-wrapper {
   font-family: "PT Serif", serif;
