@@ -79,7 +79,7 @@ export default function ResumePage() {
           </a>
         </div>
         <h4 style={{ fontFamily: "sans-serif", fontWeight: 200 }}>
-          Full Stack Developer
+          Software Engineer
         </h4>
         <br />
         <hr />
@@ -128,7 +128,7 @@ export default function ResumePage() {
           <div>
             <h5>Familiar</h5>
             <ul style={styles.experienceList}>
-              <li>C++</li>
+              <li>C</li>
               <li>Python 3</li>
               <li>Oauth2</li>
               <li>Jasmine</li>
@@ -144,20 +144,39 @@ export default function ResumePage() {
           </h4>
           <ul style={{ listStyleType: "none" }}>
             <li style={{ fontWeight: "bold" }}>
+              Software Developer |
+              <span style={styles.jobSpan}>
+              {" "}
+              RF-SMART (September 2020 - Present)
+            </span>
+            <ul>
+              <li style={styles.nestedBullet}>
+              Work with customers to modify our technology and tailor it to their specific warehouse operations.
+              </li>
+              <li style={styles.nestedBullet}>
+              The product I work on is works alonside the NetSuite ERP.
+              </li>
+              <li style={styles.nestedBullet}></li>
+            </ul>
+            </li>
+            <li style={{ fontWeight: "bold" }}>
               Software Development Intern |
               <span style={styles.jobSpan}>
                 {" "}
-                RF-Smart (June 2020 - Present)
+                RF-SMART (June 2020 - August 2020)
               </span>
               <ul>
                 <li style={styles.nestedBullet}>
-                  Works closely with QA/Automation team, updating legacy testbed
+                  Worked closely with QA/Automation team, updating legacy testbed
                   to current standards.
                 </li>
                 <li style={styles.nestedBullet}>
                   Built data scraping tool that reads through entire testbed and
                   automatically produces useful metadata like tags and
                   descriptions.
+                </li>
+                <li style={styles.nestedBullet}>
+                  Technologies used include Jasmine, Selenium Webdriver, TeamCity
                 </li>
               </ul>
             </li>
