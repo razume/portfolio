@@ -28,14 +28,11 @@ export default function HomePage() {
           lot of joy in granular, reuseable code.
         </p>
         <p>
-          I just started working for a logistics software company in
-          Jacksonville, FL. In order to get familiar with the product itself,
-          I've had to put in a lot of time with the QA Automation team. I'm
-          becoming well aquainted with the rigors of end to end testing and the
-          amount of work that is required to manage a large test bed. I've also
-          had the opportunity to write some software to improve the reporting
-          capabilities of the enormous test bed. That has been a fun way to
-          learn about the structure of our testing.
+          I'm working for a logistics software company in
+          Jacksonville, FL. I do implementations and modifications for customers
+          that want to use our technology, but the app doesn't work for their specific
+          business/warehouse operations in the base setup. It's an exciting position with 
+          a lot of variety in a given day.
         </p>
         <p>
           Take a look at the <em>Blog</em> section to see some of my thoughts
