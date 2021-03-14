@@ -90,8 +90,8 @@ export default function ResumePage() {
           </h4>
           <p>
             Former outdoor industry professional that enjoyed using technology
-            to make his job easier. My first taste of computer programming was
-            writing Excel sheets to automate tasks. Since then, I've contributed
+            to make his job easier. My first taste of computer programming was using 
+            Visual Basic with Excel to automate tasks. Since then, I've contributed
             to Florida's Computer Science K-12 Curriculum, deployed a bevy of
             full-stack applications, and now write software professionally.
           </p>
@@ -235,6 +235,12 @@ export default function ResumePage() {
                 <li style={styles.nestedBullet}>Programming I (COP3014)</li>
                 <li style={styles.nestedBullet}>
                   Introduction to UNIX (COP3353)
+                </li>
+                <li style={styles.nestedBullet}>
+                  Object Oriented Programming (COP3330)
+                </li>
+                <li style={styles.nestedBullet}>
+                  Computer Organization (CDA3100)
                 </li>
               </ul>
             </li>

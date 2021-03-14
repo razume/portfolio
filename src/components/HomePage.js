@@ -5,25 +5,27 @@ export default function HomePage() {
   return (
     <div>
       <div>
-        <h3 className="gradient" style={{ fontSize: "65px" }}>
-          Welcome.
+        <h3 className="heading">
+          Leighton A. Pitman
         </h3>
         <br />
-        <h5 style={{ fontSize: "18px" }}>
-          My name's Leighton. This is one of the places where I keep track of
+        <h5 className="subheading" style={{ fontSize: "18px" }}>
+          My name's Leighton. This is one of the places <br />where I keep track of
           some of the things I've been coding.
         </h5>
         <br />
 
         <p>
-          Just a quick introduction - I'm a fullstack developer so I have
-          interests all across the spectrum of software development. I'm
-          especially fascinated with design and UX.
+          I'm a software developer interested in a lot of different subjects in technology.
+        </p>
+        <p>
+          I have experience in mobile application and web development, but dabble in graphic design,
+          machine learning, and browser automation, among other things.
         </p>
         <img id="headshot" src={headshot} height="147px" width="120px" />
         <p>
           I like the idea of abstracting something complicated with a subtle
-          interface. I try to have that same mindset whether I'm building out a
+          interface. I try to have that same mindset whether I'm designing in the
           client or if I'm writing an automation script in the backend. I find a
           lot of joy in granular, reuseable code.
         </p>
@@ -51,7 +53,7 @@ export default function HomePage() {
           .
         </p>
         <br />
-        <p>
+        <p className="subheading">
           <strong>You can connect with me here:</strong>
         </p>
         <div className="footer-content">

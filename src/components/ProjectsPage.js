@@ -17,7 +17,7 @@ export default function ProjectsPage({ selectedProject, setSelectedProject }) {
         <div>
           <h3
             style={{ fontSize: "65px", textAlign: "center" }}
-            className="gradient"
+            className="heading"
           >
             Projects
           </h3>
