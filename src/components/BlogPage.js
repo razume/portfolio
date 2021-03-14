@@ -23,7 +23,7 @@ export default function BlogPage({ selectedPost, setSelectedPost, match }) {
     <div>
       {!selectedPost ? (
         <div>
-          <h3 style={{ fontSize: "65px", textAlign: "center" }}>Blog Posts</h3>
+          <h3 className="heading" style={{ textAlign: "center" }}>Blog Posts</h3>
           {/*
           <ul className="blog-links-container">
             {blogs.map((blog) => {
