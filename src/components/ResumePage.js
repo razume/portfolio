@@ -239,9 +239,6 @@ export default function ResumePage() {
                 <li style={styles.nestedBullet}>
                   Object Oriented Programming (COP3330)
                 </li>
-                <li style={styles.nestedBullet}>
-                  Computer Organization (CDA3100)
-                </li>
               </ul>
             </li>
           </ul>
